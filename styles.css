@@ -136,3 +136,44 @@ body > * {
   font-weight: 600;
 }
 /* QUOTE WALL - End */
+
+
+/* ACTION WALL - Start */
+.action-wall {
+  display: flex;
+  justify-content: center;
+}
+
+.action-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  background-color: #3882F6;
+  width: 100vw;
+  border-radius: 4px;
+  padding: 24px 96px;
+}
+
+.action-box .signup {
+  align-self: center;
+  border: 2px solid #F9FAF8;
+}
+
+.action-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.action-text-container h4 {
+  color: #F9FAF8;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.action-text-container p {
+  color: #E5E7EB;
+  font-size: 14px;
+  font-weight: 100;
+  margin: 0px;
+}
