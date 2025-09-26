@@ -73,3 +73,38 @@ body {
   padding: 0px;
 }
 /* HEADER AND HERO - End */
+
+/* ICON WALL - Start */
+.icon-wall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 200px;
+  gap: 24px;
+}
+
+.icon-wall h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.icon-container {
+  display: flex;
+  gap: 24px;
+}
+
+.icon-text-pair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.icon-placeholder {
+  border: 3px solid #3882F6;
+  border-radius: 12px;
+  height: 160px;
+  width: 160px;
+}
