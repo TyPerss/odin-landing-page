@@ -1,0 +1,75 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0px;
+}
+
+/* GENERAL ELEMENTS - Start */
+
+.signup {
+  background-color: #3882F6;
+  border: none;
+  padding: 6px 24px;
+  border-radius: 8px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.logo {
+  text-decoration: none;
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 24px;
+}
+/* GENERAL ELEMENTS - End */
+
+
+/* HEADER AND HERO - Start */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 16px 200px;
+}
+
+.header-link-container {
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  font-weight: 100;
+  color: #E5E7EB
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #1F2937;
+  padding: 40px 200px;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.hero-content h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.hero-content p {
+  color: #E5E7EB;
+}
+
+.hero img {
+  background-color: #909090;
+  padding: 0px;
+}
+/* HEADER AND HERO - End */
