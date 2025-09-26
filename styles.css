@@ -5,7 +5,7 @@ body {
 
 /* GENERAL ELEMENTS - Start */
 body > * {
-  padding: 40px 200px;
+  padding: 100px 200px;
 }
 
 .signup {
@@ -32,7 +32,7 @@ body > * {
   justify-content: space-between;
   background-color: #1F2937;
   color: #F9FAF8;
-  padding: 16px 200px; /*overriding global padding; reducing vertical padding*/
+  padding: 20px 200px; /*overriding global padding; reducing vertical padding*/
 }
 
 .header-link-container {
@@ -177,3 +177,20 @@ body > * {
   font-weight: 100;
   margin: 0px;
 }
+/* ACTION WALL - End */
+
+
+/* FOOTER - Start */
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  padding: 24px 200px; /*overriding global padding; reducing vertical padding*/
+}
+
+.footer a {
+  padding: 0px;
+}
+/* FOOTER - End */
