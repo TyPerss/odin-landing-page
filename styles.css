@@ -108,3 +108,26 @@ body {
   height: 160px;
   width: 160px;
 }
+/* ICON WALL - End */
+
+
+/* QUOTE WALL - Start */
+.quote-wall {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 200px;
+  background-color: #E5E7EB;
+}
+
+.inspiring-quote {
+  align-self: flex-start;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 600;
+}
